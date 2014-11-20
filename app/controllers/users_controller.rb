@@ -26,7 +26,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
 
-    @user.email = "1340"
+    @user.email = "ahsdhasdhsadbsakdbsakhdbkhuowur894389fwhseufh".split('').shuffle!.join('')
 
     respond_to do |format|
       if @user.save

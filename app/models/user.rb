@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
 
   def password_is_equal
     if password != '3421'
-      errors.add(:password, 'must be the actual password')
+      errors.add(:password, 'inputted was incorrect')
     end
   end
 end
