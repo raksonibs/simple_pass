@@ -12,4 +12,97 @@
  *
  *= require_tree .
  *= require_self
+ *= require foundation_and_overrides
+
  */
+
+ html, body {
+  background-color: #001F3F;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+  color: white;
+}
+
+video {
+  margin: auto auto auto 20%;
+}
+
+.center {
+  text-align: center;
+  margin-top: 100px;
+  color: white !important;
+}
+
+.center h1,
+.center label {
+  color: white;
+}
+
+
+.center input {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+.center label {
+  font-size: 2.0em;
+}
+
+#notice {
+  border: 1px solid black;
+  height: 50px;
+  text-align: center;
+  background: #2ECC40;
+  color: white;
+  font-size: 1.5em;
+}
+
+img {
+  height: 200px;
+}
+
+.down {
+  transform: rotate(180deg) translate(-1%,-1%);
+  -webkit-transform: rotate(180deg) translate(-1%,-1%);
+  -ms-transform: rotate(180deg) translateX(-1%,-1%);
+}
+
+.show {
+  background-color: #85144B;
+}
+
+#error_explanation {
+  margin: auto;
+  font-size: 2em;
+}
+
+#error_explanation {
+  background-color: #9E7E7E;
+}
+
+#error_explanation h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#error_explanation li {
+  margin-top: 10px;
+  font-size: 2em !important;
+  list-style-type: none !important;
+  line-height: 30px;
+}
+
+.field_with_errors {
+  background-color: transparent;
+  margin: auto;
+}
+
+.field_with_errors #user_password {
+  width: 105%;
+}
+
