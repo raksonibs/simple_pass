@@ -1,6 +1,6 @@
 //
-//  Two_LED_TestTests.swift
-//  Two LED TestTests
+//  ledTests.swift
+//  ledTests
 //
 //  Created by Oskar Niburski on 2014-11-22.
 //  Copyright (c) 2014 Oskar Niburski. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class Two_LED_TestTests: XCTestCase {
+class ledTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

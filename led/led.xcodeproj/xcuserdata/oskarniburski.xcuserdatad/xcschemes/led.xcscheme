@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EA8B4B41A205666000726AD"
-               BuildableName = "Two LED Test.app"
-               BlueprintName = "Two LED Test"
-               ReferencedContainer = "container:Two LED Test.xcodeproj">
+               BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
+               BuildableName = "led.app"
+               BlueprintName = "led"
+               ReferencedContainer = "container:led.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EA8B4C91A205666000726AD"
-               BuildableName = "Two LED TestTests.xctest"
-               BlueprintName = "Two LED TestTests"
-               ReferencedContainer = "container:Two LED Test.xcodeproj">
+               BlueprintIdentifier = "9EA8B4F71A205B3E000726AD"
+               BuildableName = "ledTests.xctest"
+               BlueprintName = "ledTests"
+               ReferencedContainer = "container:led.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EA8B4C91A205666000726AD"
-               BuildableName = "Two LED TestTests.xctest"
-               BlueprintName = "Two LED TestTests"
-               ReferencedContainer = "container:Two LED Test.xcodeproj">
+               BlueprintIdentifier = "9EA8B4F71A205B3E000726AD"
+               BuildableName = "ledTests.xctest"
+               BlueprintName = "ledTests"
+               ReferencedContainer = "container:led.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EA8B4B41A205666000726AD"
-            BuildableName = "Two LED Test.app"
-            BlueprintName = "Two LED Test"
-            ReferencedContainer = "container:Two LED Test.xcodeproj">
+            BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
+            BuildableName = "led.app"
+            BlueprintName = "led"
+            ReferencedContainer = "container:led.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EA8B4B41A205666000726AD"
-            BuildableName = "Two LED Test.app"
-            BlueprintName = "Two LED Test"
-            ReferencedContainer = "container:Two LED Test.xcodeproj">
+            BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
+            BuildableName = "led.app"
+            BlueprintName = "led"
+            ReferencedContainer = "container:led.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EA8B4B41A205666000726AD"
-            BuildableName = "Two LED Test.app"
-            BlueprintName = "Two LED Test"
-            ReferencedContainer = "container:Two LED Test.xcodeproj">
+            BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
+            BuildableName = "led.app"
+            BlueprintName = "led"
+            ReferencedContainer = "container:led.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

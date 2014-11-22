@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EA8B4BB1A205666000726AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4BA1A205666000726AD /* AppDelegate.swift */; };
-		9EA8B4BD1A205666000726AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4BC1A205666000726AD /* ViewController.swift */; };
-		9EA8B4C01A205666000726AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4BE1A205666000726AD /* Main.storyboard */; };
-		9EA8B4C21A205666000726AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4C11A205666000726AD /* Images.xcassets */; };
-		9EA8B4C51A205666000726AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4C31A205666000726AD /* LaunchScreen.xib */; };
-		9EA8B4D11A205666000726AD /* Two_LED_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4D01A205666000726AD /* Two_LED_TestTests.swift */; };
+		9EA8B4E91A205B3E000726AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4E81A205B3E000726AD /* AppDelegate.swift */; };
+		9EA8B4EB1A205B3E000726AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4EA1A205B3E000726AD /* ViewController.swift */; };
+		9EA8B4EE1A205B3E000726AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4EC1A205B3E000726AD /* Main.storyboard */; };
+		9EA8B4F01A205B3E000726AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4EF1A205B3E000726AD /* Images.xcassets */; };
+		9EA8B4F31A205B3E000726AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4F11A205B3E000726AD /* LaunchScreen.xib */; };
+		9EA8B4FF1A205B3E000726AD /* ledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4FE1A205B3E000726AD /* ledTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9EA8B4CB1A205666000726AD /* PBXContainerItemProxy */ = {
+		9EA8B4F91A205B3E000726AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9EA8B4AD1A205666000726AD /* Project object */;
+			containerPortal = 9EA8B4DB1A205B3E000726AD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EA8B4B41A205666000726AD;
-			remoteInfo = "Two LED Test";
+			remoteGlobalIDString = 9EA8B4E21A205B3E000726AD;
+			remoteInfo = led;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9EA8B4B51A205666000726AD /* Two LED Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two LED Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA8B4B91A205666000726AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EA8B4BA1A205666000726AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EA8B4BC1A205666000726AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9EA8B4BF1A205666000726AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EA8B4C11A205666000726AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9EA8B4C41A205666000726AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9EA8B4CA1A205666000726AD /* Two LED TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two LED TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA8B4CF1A205666000726AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EA8B4D01A205666000726AD /* Two_LED_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_LED_TestTests.swift; sourceTree = "<group>"; };
+		9EA8B4E31A205B3E000726AD /* led.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = led.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA8B4E71A205B3E000726AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA8B4E81A205B3E000726AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EA8B4EA1A205B3E000726AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EA8B4ED1A205B3E000726AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EA8B4EF1A205B3E000726AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9EA8B4F21A205B3E000726AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9EA8B4F81A205B3E000726AD /* ledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA8B4FD1A205B3E000726AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA8B4FE1A205B3E000726AD /* ledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ledTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EA8B4B21A205666000726AD /* Frameworks */ = {
+		9EA8B4E01A205B3E000726AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EA8B4C71A205666000726AD /* Frameworks */ = {
+		9EA8B4F51A205B3E000726AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EA8B4AC1A205666000726AD = {
+		9EA8B4DA1A205B3E000726AD = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4B71A205666000726AD /* Two LED Test */,
-				9EA8B4CD1A205666000726AD /* Two LED TestTests */,
-				9EA8B4B61A205666000726AD /* Products */,
+				9EA8B4E51A205B3E000726AD /* led */,
+				9EA8B4FB1A205B3E000726AD /* ledTests */,
+				9EA8B4E41A205B3E000726AD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EA8B4B61A205666000726AD /* Products */ = {
+		9EA8B4E41A205B3E000726AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4B51A205666000726AD /* Two LED Test.app */,
-				9EA8B4CA1A205666000726AD /* Two LED TestTests.xctest */,
+				9EA8B4E31A205B3E000726AD /* led.app */,
+				9EA8B4F81A205B3E000726AD /* ledTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EA8B4B71A205666000726AD /* Two LED Test */ = {
+		9EA8B4E51A205B3E000726AD /* led */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4BA1A205666000726AD /* AppDelegate.swift */,
-				9EA8B4BC1A205666000726AD /* ViewController.swift */,
-				9EA8B4BE1A205666000726AD /* Main.storyboard */,
-				9EA8B4C11A205666000726AD /* Images.xcassets */,
-				9EA8B4C31A205666000726AD /* LaunchScreen.xib */,
-				9EA8B4B81A205666000726AD /* Supporting Files */,
+				9EA8B4E81A205B3E000726AD /* AppDelegate.swift */,
+				9EA8B4EA1A205B3E000726AD /* ViewController.swift */,
+				9EA8B4EC1A205B3E000726AD /* Main.storyboard */,
+				9EA8B4EF1A205B3E000726AD /* Images.xcassets */,
+				9EA8B4F11A205B3E000726AD /* LaunchScreen.xib */,
+				9EA8B4E61A205B3E000726AD /* Supporting Files */,
 			);
-			path = "Two LED Test";
+			path = led;
 			sourceTree = "<group>";
 		};
-		9EA8B4B81A205666000726AD /* Supporting Files */ = {
+		9EA8B4E61A205B3E000726AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4B91A205666000726AD /* Info.plist */,
+				9EA8B4E71A205B3E000726AD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9EA8B4CD1A205666000726AD /* Two LED TestTests */ = {
+		9EA8B4FB1A205B3E000726AD /* ledTests */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4D01A205666000726AD /* Two_LED_TestTests.swift */,
-				9EA8B4CE1A205666000726AD /* Supporting Files */,
+				9EA8B4FE1A205B3E000726AD /* ledTests.swift */,
+				9EA8B4FC1A205B3E000726AD /* Supporting Files */,
 			);
-			path = "Two LED TestTests";
+			path = ledTests;
 			sourceTree = "<group>";
 		};
-		9EA8B4CE1A205666000726AD /* Supporting Files */ = {
+		9EA8B4FC1A205B3E000726AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4CF1A205666000726AD /* Info.plist */,
+				9EA8B4FD1A205B3E000726AD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,60 +115,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EA8B4B41A205666000726AD /* Two LED Test */ = {
+		9EA8B4E21A205B3E000726AD /* led */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA8B4D41A205666000726AD /* Build configuration list for PBXNativeTarget "Two LED Test" */;
+			buildConfigurationList = 9EA8B5021A205B3E000726AD /* Build configuration list for PBXNativeTarget "led" */;
 			buildPhases = (
-				9EA8B4B11A205666000726AD /* Sources */,
-				9EA8B4B21A205666000726AD /* Frameworks */,
-				9EA8B4B31A205666000726AD /* Resources */,
+				9EA8B4DF1A205B3E000726AD /* Sources */,
+				9EA8B4E01A205B3E000726AD /* Frameworks */,
+				9EA8B4E11A205B3E000726AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Two LED Test";
-			productName = "Two LED Test";
-			productReference = 9EA8B4B51A205666000726AD /* Two LED Test.app */;
+			name = led;
+			productName = led;
+			productReference = 9EA8B4E31A205B3E000726AD /* led.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9EA8B4C91A205666000726AD /* Two LED TestTests */ = {
+		9EA8B4F71A205B3E000726AD /* ledTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA8B4D71A205666000726AD /* Build configuration list for PBXNativeTarget "Two LED TestTests" */;
+			buildConfigurationList = 9EA8B5051A205B3E000726AD /* Build configuration list for PBXNativeTarget "ledTests" */;
 			buildPhases = (
-				9EA8B4C61A205666000726AD /* Sources */,
-				9EA8B4C71A205666000726AD /* Frameworks */,
-				9EA8B4C81A205666000726AD /* Resources */,
+				9EA8B4F41A205B3E000726AD /* Sources */,
+				9EA8B4F51A205B3E000726AD /* Frameworks */,
+				9EA8B4F61A205B3E000726AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9EA8B4CC1A205666000726AD /* PBXTargetDependency */,
+				9EA8B4FA1A205B3E000726AD /* PBXTargetDependency */,
 			);
-			name = "Two LED TestTests";
-			productName = "Two LED TestTests";
-			productReference = 9EA8B4CA1A205666000726AD /* Two LED TestTests.xctest */;
+			name = ledTests;
+			productName = ledTests;
+			productReference = 9EA8B4F81A205B3E000726AD /* ledTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EA8B4AD1A205666000726AD /* Project object */ = {
+		9EA8B4DB1A205B3E000726AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Oskar Niburski";
 				TargetAttributes = {
-					9EA8B4B41A205666000726AD = {
+					9EA8B4E21A205B3E000726AD = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					9EA8B4C91A205666000726AD = {
+					9EA8B4F71A205B3E000726AD = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 9EA8B4B41A205666000726AD;
+						TestTargetID = 9EA8B4E21A205B3E000726AD;
 					};
 				};
 			};
-			buildConfigurationList = 9EA8B4B01A205666000726AD /* Build configuration list for PBXProject "Two LED Test" */;
+			buildConfigurationList = 9EA8B4DE1A205B3E000726AD /* Build configuration list for PBXProject "led" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9EA8B4AC1A205666000726AD;
-			productRefGroup = 9EA8B4B61A205666000726AD /* Products */;
+			mainGroup = 9EA8B4DA1A205B3E000726AD;
+			productRefGroup = 9EA8B4E41A205B3E000726AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EA8B4B41A205666000726AD /* Two LED Test */,
-				9EA8B4C91A205666000726AD /* Two LED TestTests */,
+				9EA8B4E21A205B3E000726AD /* led */,
+				9EA8B4F71A205B3E000726AD /* ledTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9EA8B4B31A205666000726AD /* Resources */ = {
+		9EA8B4E11A205B3E000726AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA8B4C01A205666000726AD /* Main.storyboard in Resources */,
-				9EA8B4C51A205666000726AD /* LaunchScreen.xib in Resources */,
-				9EA8B4C21A205666000726AD /* Images.xcassets in Resources */,
+				9EA8B4EE1A205B3E000726AD /* Main.storyboard in Resources */,
+				9EA8B4F31A205B3E000726AD /* LaunchScreen.xib in Resources */,
+				9EA8B4F01A205B3E000726AD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EA8B4C81A205666000726AD /* Resources */ = {
+		9EA8B4F61A205B3E000726AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +208,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EA8B4B11A205666000726AD /* Sources */ = {
+		9EA8B4DF1A205B3E000726AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA8B4BD1A205666000726AD /* ViewController.swift in Sources */,
-				9EA8B4BB1A205666000726AD /* AppDelegate.swift in Sources */,
+				9EA8B4EB1A205B3E000726AD /* ViewController.swift in Sources */,
+				9EA8B4E91A205B3E000726AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EA8B4C61A205666000726AD /* Sources */ = {
+		9EA8B4F41A205B3E000726AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA8B4D11A205666000726AD /* Two_LED_TestTests.swift in Sources */,
+				9EA8B4FF1A205B3E000726AD /* ledTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EA8B4CC1A205666000726AD /* PBXTargetDependency */ = {
+		9EA8B4FA1A205B3E000726AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EA8B4B41A205666000726AD /* Two LED Test */;
-			targetProxy = 9EA8B4CB1A205666000726AD /* PBXContainerItemProxy */;
+			target = 9EA8B4E21A205B3E000726AD /* led */;
+			targetProxy = 9EA8B4F91A205B3E000726AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9EA8B4BE1A205666000726AD /* Main.storyboard */ = {
+		9EA8B4EC1A205B3E000726AD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EA8B4BF1A205666000726AD /* Base */,
+				9EA8B4ED1A205B3E000726AD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9EA8B4C31A205666000726AD /* LaunchScreen.xib */ = {
+		9EA8B4F11A205B3E000726AD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EA8B4C41A205666000726AD /* Base */,
+				9EA8B4F21A205B3E000726AD /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9EA8B4D21A205666000726AD /* Debug */ = {
+		9EA8B5001A205B3E000726AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		9EA8B4D31A205666000726AD /* Release */ = {
+		9EA8B5011A205B3E000726AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,27 +334,27 @@
 			};
 			name = Release;
 		};
-		9EA8B4D51A205666000726AD /* Debug */ = {
+		9EA8B5031A205B3E000726AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Two LED Test/Info.plist";
+				INFOPLIST_FILE = led/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9EA8B4D61A205666000726AD /* Release */ = {
+		9EA8B5041A205B3E000726AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Two LED Test/Info.plist";
+				INFOPLIST_FILE = led/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		9EA8B4D81A205666000726AD /* Debug */ = {
+		9EA8B5061A205B3E000726AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -366,14 +366,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Two LED TestTests/Info.plist";
+				INFOPLIST_FILE = ledTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two LED Test.app/Two LED Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led.app/led";
 			};
 			name = Debug;
 		};
-		9EA8B4D91A205666000726AD /* Release */ = {
+		9EA8B5071A205B3E000726AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,42 +381,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Two LED TestTests/Info.plist";
+				INFOPLIST_FILE = ledTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two LED Test.app/Two LED Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led.app/led";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EA8B4B01A205666000726AD /* Build configuration list for PBXProject "Two LED Test" */ = {
+		9EA8B4DE1A205B3E000726AD /* Build configuration list for PBXProject "led" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA8B4D21A205666000726AD /* Debug */,
-				9EA8B4D31A205666000726AD /* Release */,
+				9EA8B5001A205B3E000726AD /* Debug */,
+				9EA8B5011A205B3E000726AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EA8B4D41A205666000726AD /* Build configuration list for PBXNativeTarget "Two LED Test" */ = {
+		9EA8B5021A205B3E000726AD /* Build configuration list for PBXNativeTarget "led" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA8B4D51A205666000726AD /* Debug */,
-				9EA8B4D61A205666000726AD /* Release */,
+				9EA8B5031A205B3E000726AD /* Debug */,
+				9EA8B5041A205B3E000726AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9EA8B4D71A205666000726AD /* Build configuration list for PBXNativeTarget "Two LED TestTests" */ = {
+		9EA8B5051A205B3E000726AD /* Build configuration list for PBXNativeTarget "ledTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA8B4D81A205666000726AD /* Debug */,
-				9EA8B4D91A205666000726AD /* Release */,
+				9EA8B5061A205B3E000726AD /* Debug */,
+				9EA8B5071A205B3E000726AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EA8B4AD1A205666000726AD /* Project object */;
+	rootObject = 9EA8B4DB1A205B3E000726AD /* Project object */;
 }

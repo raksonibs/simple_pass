@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Two LED Test.xcscheme</key>
+		<key>led.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9EA8B4B41A205666000726AD</key>
+		<key>9EA8B4E21A205B3E000726AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9EA8B4C91A205666000726AD</key>
+		<key>9EA8B4F71A205B3E000726AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

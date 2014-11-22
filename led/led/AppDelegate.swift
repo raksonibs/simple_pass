@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Two LED Test
+//  led
 //
 //  Created by Oskar Niburski on 2014-11-22.
 //  Copyright (c) 2014 Oskar Niburski. All rights reserved.
