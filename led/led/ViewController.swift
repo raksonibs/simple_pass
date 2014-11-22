@@ -20,31 +20,49 @@ class ViewController: UIViewController {
         let screenWidth = UIScreen.mainScreen().bounds.size.width
         let screenHeight = UIScreen.mainScreen().bounds.size.height
         
-        self.view.addSubview(createCircle(200, color:UIColor(red:0, green:0, blue:0, alpha: 1.0)))
-        self.view.addSubview(createCircle(195, color:UIColor(red: 0.145, green: 0.145, blue: 0.145, alpha: 1.0)))
-        self.view.addSubview(createCircle(185, color:UIColor(red:0, green:0, blue:0, alpha: 1.0)))
-        self.view.addSubview(createCircle(180, color:UIColor(red:0.808, green:0.906, blue:0.271, alpha:1.0)))
+        self.view.addSubview(createCircle(100, color:UIColor(red:0, green:0, blue:0, alpha: 1.0)))
+        self.view.addSubview(createCircle(95, color:UIColor(red: 0.145, green: 0.145, blue: 0.145, alpha: 1.0)))
+        self.view.addSubview(createCircle(85, color:UIColor(red:0, green:0, blue:0, alpha: 1.0)))
+        self.view.addSubview(createCircle(80, color:UIColor(red:0.808, green:0.906, blue:0.271, alpha:1.0)))
+        
         
         let button = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
         button.frame = CGRectMake(
-            (screenWidth - 200) / 2.0,
-            (screenHeight - 200) / 2.0,
-            200,
-            200)
-        button.setTitle("Coming home!", forState: UIControlState.Normal)
+            (screenWidth - 100) / 2.0,
+            (screenHeight - 100) / 2.0,
+            100,
+            100)
+        button.setTitle("Button1", forState: UIControlState.Normal)
         button.titleLabel!.font = UIFont.boldSystemFontOfSize(22)
-        button.addTarget(self, action: "pressed:", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: "pressedButton1:", forControlEvents: .TouchUpInside)
         self.view.addSubview(button)
         
     }
     
-    func pressed(sender: UIButton!)
+    func pressedButton1(sender: UIButton!)
     {
         
         var request = NSMutableURLRequest(URL: NSURL(string: "https://api.spark.io/v1/devices/\(device_id)/led")!)
         var session = NSURLSession.sharedSession()
         request.HTTPMethod = "POST"
         request.HTTPBody = "access_token=\(access_token)&params=l1,HIGH".dataUsingEncoding(NSUTF8StringEncoding)
+        
+        var task = session.dataTaskWithRequest(request, completionHandler: {data, response, error -> Void in
+            println("Response: \(response)")
+            var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
+            println("Body: \(strData)")
+        })
+        
+        task.resume()
+    }
+    
+    func pressedButton2(sender: UIButton!)
+    {
+        
+        var request = NSMutableURLRequest(URL: NSURL(string: "https://api.spark.io/v1/devices/\(device_id)/led")!)
+        var session = NSURLSession.sharedSession()
+        request.HTTPMethod = "POST"
+        request.HTTPBody = "access_token=\(access_token)&params=l2,HIGH".dataUsingEncoding(NSUTF8StringEncoding)
         
         var task = session.dataTaskWithRequest(request, completionHandler: {data, response, error -> Void in
             println("Response: \(response)")
