@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
-               BuildableName = "led.app"
-               BlueprintName = "led"
-               ReferencedContainer = "container:led.xcodeproj">
+               BuildableName = "test.app"
+               BlueprintName = "fixedled"
+               ReferencedContainer = "container:fixedled.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9EA8B4F71A205B3E000726AD"
-               BuildableName = "ledTests.xctest"
-               BlueprintName = "ledTests"
-               ReferencedContainer = "container:led.xcodeproj">
+               BuildableName = "testTests.xctest"
+               BlueprintName = "fixedledTests"
+               ReferencedContainer = "container:fixedled.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9EA8B4F71A205B3E000726AD"
-               BuildableName = "ledTests.xctest"
-               BlueprintName = "ledTests"
-               ReferencedContainer = "container:led.xcodeproj">
+               BuildableName = "testTests.xctest"
+               BlueprintName = "fixedledTests"
+               ReferencedContainer = "container:fixedled.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
-            BuildableName = "led.app"
-            BlueprintName = "led"
-            ReferencedContainer = "container:led.xcodeproj">
+            BuildableName = "test.app"
+            BlueprintName = "fixedled"
+            ReferencedContainer = "container:fixedled.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
-            BuildableName = "led.app"
-            BlueprintName = "led"
-            ReferencedContainer = "container:led.xcodeproj">
+            BuildableName = "test.app"
+            BlueprintName = "fixedled"
+            ReferencedContainer = "container:fixedled.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9EA8B4E21A205B3E000726AD"
-            BuildableName = "led.app"
-            BlueprintName = "led"
-            ReferencedContainer = "container:led.xcodeproj">
+            BuildableName = "test.app"
+            BlueprintName = "fixedled"
+            ReferencedContainer = "container:fixedled.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

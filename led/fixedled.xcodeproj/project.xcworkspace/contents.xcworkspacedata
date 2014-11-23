@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:led.xcodeproj">
+      location = "self:fixedled.xcodeproj">
    </FileRef>
 </Workspace>

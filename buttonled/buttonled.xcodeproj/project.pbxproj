@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EA8B4E91A205B3E000726AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4E81A205B3E000726AD /* AppDelegate.swift */; };
-		9EA8B4EB1A205B3E000726AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4EA1A205B3E000726AD /* ViewController.swift */; };
-		9EA8B4EE1A205B3E000726AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4EC1A205B3E000726AD /* Main.storyboard */; };
-		9EA8B4F01A205B3E000726AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4EF1A205B3E000726AD /* Images.xcassets */; };
-		9EA8B4F31A205B3E000726AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA8B4F11A205B3E000726AD /* LaunchScreen.xib */; };
-		9EA8B4FF1A205B3E000726AD /* ledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA8B4FE1A205B3E000726AD /* ledTests.swift */; };
+		9E0AC5CC1A21B2420064EA24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AC5CB1A21B2420064EA24 /* AppDelegate.swift */; };
+		9E0AC5CE1A21B2420064EA24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AC5CD1A21B2420064EA24 /* ViewController.swift */; };
+		9E0AC5D11A21B2420064EA24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0AC5CF1A21B2420064EA24 /* Main.storyboard */; };
+		9E0AC5D31A21B2420064EA24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0AC5D21A21B2420064EA24 /* Images.xcassets */; };
+		9E0AC5D61A21B2420064EA24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0AC5D41A21B2420064EA24 /* LaunchScreen.xib */; };
+		9E0AC5E21A21B2430064EA24 /* buttonledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AC5E11A21B2430064EA24 /* buttonledTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9EA8B4F91A205B3E000726AD /* PBXContainerItemProxy */ = {
+		9E0AC5DC1A21B2430064EA24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9EA8B4DB1A205B3E000726AD /* Project object */;
+			containerPortal = 9E0AC5BE1A21B2420064EA24 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9EA8B4E21A205B3E000726AD;
-			remoteInfo = led;
+			remoteGlobalIDString = 9E0AC5C51A21B2420064EA24;
+			remoteInfo = buttonled;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9EA8B4E31A205B3E000726AD /* led.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = led.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA8B4E71A205B3E000726AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EA8B4E81A205B3E000726AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EA8B4EA1A205B3E000726AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9EA8B4ED1A205B3E000726AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EA8B4EF1A205B3E000726AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9EA8B4F21A205B3E000726AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9EA8B4F81A205B3E000726AD /* ledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA8B4FD1A205B3E000726AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EA8B4FE1A205B3E000726AD /* ledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ledTests.swift; sourceTree = "<group>"; };
+		9E0AC5C61A21B2420064EA24 /* buttonled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buttonled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0AC5CA1A21B2420064EA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0AC5CB1A21B2420064EA24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E0AC5CD1A21B2420064EA24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E0AC5D01A21B2420064EA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E0AC5D21A21B2420064EA24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E0AC5D51A21B2420064EA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9E0AC5DB1A21B2430064EA24 /* buttonledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0AC5E01A21B2430064EA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0AC5E11A21B2430064EA24 /* buttonledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonledTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EA8B4E01A205B3E000726AD /* Frameworks */ = {
+		9E0AC5C31A21B2420064EA24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EA8B4F51A205B3E000726AD /* Frameworks */ = {
+		9E0AC5D81A21B2430064EA24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EA8B4DA1A205B3E000726AD = {
+		9E0AC5BD1A21B2420064EA24 = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4E51A205B3E000726AD /* led */,
-				9EA8B4FB1A205B3E000726AD /* ledTests */,
-				9EA8B4E41A205B3E000726AD /* Products */,
+				9E0AC5C81A21B2420064EA24 /* buttonled */,
+				9E0AC5DE1A21B2430064EA24 /* buttonledTests */,
+				9E0AC5C71A21B2420064EA24 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EA8B4E41A205B3E000726AD /* Products */ = {
+		9E0AC5C71A21B2420064EA24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4E31A205B3E000726AD /* led.app */,
-				9EA8B4F81A205B3E000726AD /* ledTests.xctest */,
+				9E0AC5C61A21B2420064EA24 /* buttonled.app */,
+				9E0AC5DB1A21B2430064EA24 /* buttonledTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EA8B4E51A205B3E000726AD /* led */ = {
+		9E0AC5C81A21B2420064EA24 /* buttonled */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4E81A205B3E000726AD /* AppDelegate.swift */,
-				9EA8B4EA1A205B3E000726AD /* ViewController.swift */,
-				9EA8B4EC1A205B3E000726AD /* Main.storyboard */,
-				9EA8B4EF1A205B3E000726AD /* Images.xcassets */,
-				9EA8B4F11A205B3E000726AD /* LaunchScreen.xib */,
-				9EA8B4E61A205B3E000726AD /* Supporting Files */,
+				9E0AC5CB1A21B2420064EA24 /* AppDelegate.swift */,
+				9E0AC5CD1A21B2420064EA24 /* ViewController.swift */,
+				9E0AC5CF1A21B2420064EA24 /* Main.storyboard */,
+				9E0AC5D21A21B2420064EA24 /* Images.xcassets */,
+				9E0AC5D41A21B2420064EA24 /* LaunchScreen.xib */,
+				9E0AC5C91A21B2420064EA24 /* Supporting Files */,
 			);
-			path = led;
+			path = buttonled;
 			sourceTree = "<group>";
 		};
-		9EA8B4E61A205B3E000726AD /* Supporting Files */ = {
+		9E0AC5C91A21B2420064EA24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4E71A205B3E000726AD /* Info.plist */,
+				9E0AC5CA1A21B2420064EA24 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9EA8B4FB1A205B3E000726AD /* ledTests */ = {
+		9E0AC5DE1A21B2430064EA24 /* buttonledTests */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4FE1A205B3E000726AD /* ledTests.swift */,
-				9EA8B4FC1A205B3E000726AD /* Supporting Files */,
+				9E0AC5E11A21B2430064EA24 /* buttonledTests.swift */,
+				9E0AC5DF1A21B2430064EA24 /* Supporting Files */,
 			);
-			path = ledTests;
+			path = buttonledTests;
 			sourceTree = "<group>";
 		};
-		9EA8B4FC1A205B3E000726AD /* Supporting Files */ = {
+		9E0AC5DF1A21B2430064EA24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EA8B4FD1A205B3E000726AD /* Info.plist */,
+				9E0AC5E01A21B2430064EA24 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,60 +115,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EA8B4E21A205B3E000726AD /* led */ = {
+		9E0AC5C51A21B2420064EA24 /* buttonled */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA8B5021A205B3E000726AD /* Build configuration list for PBXNativeTarget "led" */;
+			buildConfigurationList = 9E0AC5E51A21B2430064EA24 /* Build configuration list for PBXNativeTarget "buttonled" */;
 			buildPhases = (
-				9EA8B4DF1A205B3E000726AD /* Sources */,
-				9EA8B4E01A205B3E000726AD /* Frameworks */,
-				9EA8B4E11A205B3E000726AD /* Resources */,
+				9E0AC5C21A21B2420064EA24 /* Sources */,
+				9E0AC5C31A21B2420064EA24 /* Frameworks */,
+				9E0AC5C41A21B2420064EA24 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = led;
-			productName = led;
-			productReference = 9EA8B4E31A205B3E000726AD /* led.app */;
+			name = buttonled;
+			productName = buttonled;
+			productReference = 9E0AC5C61A21B2420064EA24 /* buttonled.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9EA8B4F71A205B3E000726AD /* ledTests */ = {
+		9E0AC5DA1A21B2430064EA24 /* buttonledTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA8B5051A205B3E000726AD /* Build configuration list for PBXNativeTarget "ledTests" */;
+			buildConfigurationList = 9E0AC5E81A21B2430064EA24 /* Build configuration list for PBXNativeTarget "buttonledTests" */;
 			buildPhases = (
-				9EA8B4F41A205B3E000726AD /* Sources */,
-				9EA8B4F51A205B3E000726AD /* Frameworks */,
-				9EA8B4F61A205B3E000726AD /* Resources */,
+				9E0AC5D71A21B2430064EA24 /* Sources */,
+				9E0AC5D81A21B2430064EA24 /* Frameworks */,
+				9E0AC5D91A21B2430064EA24 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9EA8B4FA1A205B3E000726AD /* PBXTargetDependency */,
+				9E0AC5DD1A21B2430064EA24 /* PBXTargetDependency */,
 			);
-			name = ledTests;
-			productName = ledTests;
-			productReference = 9EA8B4F81A205B3E000726AD /* ledTests.xctest */;
+			name = buttonledTests;
+			productName = buttonledTests;
+			productReference = 9E0AC5DB1A21B2430064EA24 /* buttonledTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EA8B4DB1A205B3E000726AD /* Project object */ = {
+		9E0AC5BE1A21B2420064EA24 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Oskar Niburski";
 				TargetAttributes = {
-					9EA8B4E21A205B3E000726AD = {
+					9E0AC5C51A21B2420064EA24 = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					9EA8B4F71A205B3E000726AD = {
+					9E0AC5DA1A21B2430064EA24 = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 9EA8B4E21A205B3E000726AD;
+						TestTargetID = 9E0AC5C51A21B2420064EA24;
 					};
 				};
 			};
-			buildConfigurationList = 9EA8B4DE1A205B3E000726AD /* Build configuration list for PBXProject "led" */;
+			buildConfigurationList = 9E0AC5C11A21B2420064EA24 /* Build configuration list for PBXProject "buttonled" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9EA8B4DA1A205B3E000726AD;
-			productRefGroup = 9EA8B4E41A205B3E000726AD /* Products */;
+			mainGroup = 9E0AC5BD1A21B2420064EA24;
+			productRefGroup = 9E0AC5C71A21B2420064EA24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EA8B4E21A205B3E000726AD /* led */,
-				9EA8B4F71A205B3E000726AD /* ledTests */,
+				9E0AC5C51A21B2420064EA24 /* buttonled */,
+				9E0AC5DA1A21B2430064EA24 /* buttonledTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9EA8B4E11A205B3E000726AD /* Resources */ = {
+		9E0AC5C41A21B2420064EA24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA8B4EE1A205B3E000726AD /* Main.storyboard in Resources */,
-				9EA8B4F31A205B3E000726AD /* LaunchScreen.xib in Resources */,
-				9EA8B4F01A205B3E000726AD /* Images.xcassets in Resources */,
+				9E0AC5D11A21B2420064EA24 /* Main.storyboard in Resources */,
+				9E0AC5D61A21B2420064EA24 /* LaunchScreen.xib in Resources */,
+				9E0AC5D31A21B2420064EA24 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EA8B4F61A205B3E000726AD /* Resources */ = {
+		9E0AC5D91A21B2430064EA24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +208,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EA8B4DF1A205B3E000726AD /* Sources */ = {
+		9E0AC5C21A21B2420064EA24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA8B4EB1A205B3E000726AD /* ViewController.swift in Sources */,
-				9EA8B4E91A205B3E000726AD /* AppDelegate.swift in Sources */,
+				9E0AC5CE1A21B2420064EA24 /* ViewController.swift in Sources */,
+				9E0AC5CC1A21B2420064EA24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EA8B4F41A205B3E000726AD /* Sources */ = {
+		9E0AC5D71A21B2430064EA24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA8B4FF1A205B3E000726AD /* ledTests.swift in Sources */,
+				9E0AC5E21A21B2430064EA24 /* buttonledTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EA8B4FA1A205B3E000726AD /* PBXTargetDependency */ = {
+		9E0AC5DD1A21B2430064EA24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EA8B4E21A205B3E000726AD /* led */;
-			targetProxy = 9EA8B4F91A205B3E000726AD /* PBXContainerItemProxy */;
+			target = 9E0AC5C51A21B2420064EA24 /* buttonled */;
+			targetProxy = 9E0AC5DC1A21B2430064EA24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9EA8B4EC1A205B3E000726AD /* Main.storyboard */ = {
+		9E0AC5CF1A21B2420064EA24 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EA8B4ED1A205B3E000726AD /* Base */,
+				9E0AC5D01A21B2420064EA24 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9EA8B4F11A205B3E000726AD /* LaunchScreen.xib */ = {
+		9E0AC5D41A21B2420064EA24 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EA8B4F21A205B3E000726AD /* Base */,
+				9E0AC5D51A21B2420064EA24 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9EA8B5001A205B3E000726AD /* Debug */ = {
+		9E0AC5E31A21B2430064EA24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -298,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		9EA8B5011A205B3E000726AD /* Release */ = {
+		9E0AC5E41A21B2430064EA24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,33 +334,27 @@
 			};
 			name = Release;
 		};
-		9EA8B5031A205B3E000726AD /* Debug */ = {
+		9E0AC5E61A21B2430064EA24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				INFOPLIST_FILE = led/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = buttonled/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9EA8B5041A205B3E000726AD /* Release */ = {
+		9E0AC5E71A21B2430064EA24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				INFOPLIST_FILE = led/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = buttonled/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		9EA8B5061A205B3E000726AD /* Debug */ = {
+		9E0AC5E91A21B2430064EA24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -372,14 +366,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ledTests/Info.plist;
+				INFOPLIST_FILE = buttonledTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led.app/led";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buttonled.app/buttonled";
 			};
 			name = Debug;
 		};
-		9EA8B5071A205B3E000726AD /* Release */ = {
+		9E0AC5EA1A21B2430064EA24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -387,44 +381,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ledTests/Info.plist;
+				INFOPLIST_FILE = buttonledTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/led.app/led";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buttonled.app/buttonled";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EA8B4DE1A205B3E000726AD /* Build configuration list for PBXProject "led" */ = {
+		9E0AC5C11A21B2420064EA24 /* Build configuration list for PBXProject "buttonled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA8B5001A205B3E000726AD /* Debug */,
-				9EA8B5011A205B3E000726AD /* Release */,
+				9E0AC5E31A21B2430064EA24 /* Debug */,
+				9E0AC5E41A21B2430064EA24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EA8B5021A205B3E000726AD /* Build configuration list for PBXNativeTarget "led" */ = {
+		9E0AC5E51A21B2430064EA24 /* Build configuration list for PBXNativeTarget "buttonled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA8B5031A205B3E000726AD /* Debug */,
-				9EA8B5041A205B3E000726AD /* Release */,
+				9E0AC5E61A21B2430064EA24 /* Debug */,
+				9E0AC5E71A21B2430064EA24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		9EA8B5051A205B3E000726AD /* Build configuration list for PBXNativeTarget "ledTests" */ = {
+		9E0AC5E81A21B2430064EA24 /* Build configuration list for PBXNativeTarget "buttonledTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA8B5061A205B3E000726AD /* Debug */,
-				9EA8B5071A205B3E000726AD /* Release */,
+				9E0AC5E91A21B2430064EA24 /* Debug */,
+				9E0AC5EA1A21B2430064EA24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EA8B4DB1A205B3E000726AD /* Project object */;
+	rootObject = 9E0AC5BE1A21B2420064EA24 /* Project object */;
 }

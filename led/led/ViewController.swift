@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         self.view.addSubview(createCircle(100, color:UIColor(red:0, green:0, blue:0, alpha: 1.0)))
         self.view.addSubview(createCircle(95, color:UIColor(red: 0.145, green: 0.145, blue: 0.145, alpha: 1.0)))
         self.view.addSubview(createCircle(85, color:UIColor(red:0, green:0, blue:0, alpha: 1.0)))
-        self.view.addSubview(createCircle(80, color:UIColor(red:0, green:0, blue:1, alpha:1.0)))
+        self.view.addSubview(createCircle(80, color:UIColor(red:0, green:0.8, blue:1, alpha:1.0)))
         
         self.view.addSubview(createCircle1(100, color:UIColor(red:0, green:0, blue:0, alpha: 1.0)))
         self.view.addSubview(createCircle1(95, color:UIColor(red: 0.245, green: 0.245, blue: 0.245, alpha: 1.0)))
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         let button = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
         button.frame = CGRectMake(
             (screenWidth - 100) / 2.0,
-            (screenHeight - 500) / 2.0,
+            (screenHeight - 450) / 2.0,
             100,
             100)
         button.setTitle("Button1", forState: UIControlState.Normal)
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         let button2 = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
         button2.frame = CGRectMake(
             (screenWidth - 100) / 2.0,
-            (screenHeight + 400) / 2.0,
+            (screenHeight + 250) / 2.0,
             100,
             100)
         button2.setTitle("Button3", forState: UIControlState.Normal)
@@ -128,7 +128,7 @@ class ViewController: UIViewController {
         let screenWidth = UIScreen.mainScreen().bounds.size.width
         let screenHeight = UIScreen.mainScreen().bounds.size.height
         let x = (screenWidth - radius) / 2.0
-        let y = (screenHeight - radius - 400) / 2.0
+        let y = (screenHeight - radius - 350) / 2.0
         
         let circle = UIView(frame: CGRectMake(x, y, radius, radius))
         circle.alpha = 0.5
@@ -156,7 +156,7 @@ class ViewController: UIViewController {
         let screenWidth = UIScreen.mainScreen().bounds.size.width
         let screenHeight = UIScreen.mainScreen().bounds.size.height
         let x = (screenWidth - radius) / 2.0
-        let y = (screenHeight - radius + 500) / 2.0
+        let y = (screenHeight - radius + 350) / 2.0
         
         let circle = UIView(frame: CGRectMake(x, y, radius, radius))
         circle.alpha = 0.5
