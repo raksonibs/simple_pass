@@ -28,6 +28,8 @@
 
 video {
   margin: auto auto auto 20%;
+  position: relative;
+  top: -100px;
 }
 
 .center {
