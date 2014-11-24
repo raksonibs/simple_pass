@@ -1,7 +1,3 @@
-
- 
- 
- 
 void clr() {
   //Clears the LED
   digitalWrite(8, LOW);
@@ -208,39 +204,7 @@ void zero()
 
 void LoopDisplay()
 {
-  //Loop through all Chars and Numbers
-//  char_A();
-//  delay(1000);
-//  char_B();
-//  delay(1000);
-//  char_C();
-//  delay(1000);
-//  char_D();
-//  delay(1000);
-//  char_E();
-//  delay(1000);
-//  char_F();
-//  delay(1000);
-  one();
-//  delay(1000);
-//  two();
-//  delay(1000);
-//  three();
-//  delay(1000);
-//  four();
-//  delay(1000);
-//  five();
-//  delay(1000);
-//  six();
-//  delay(1000);
-//  seven();
-//  delay(1000);
-//  eight();
-//  delay(1000);
-//  nine();
-//  delay(1000);
-//  zero();
-//  delay(1000);
+  eight();
 }
 
 void setup()
